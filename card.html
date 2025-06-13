@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 320px;
+      overflow: hidden;
+      margin: auto;
+    }
+
+
+
+    .card-content {
+      padding: 16px;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+    }
+
+    .details {
+      font-size: 13px;
+      margin-top: 10px;
+      color: #444;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+.details li{
+    padding: 8px;
+}
+    .experimental {
+      font-size: 14px;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+
+
+    .option {
+      background: white;
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .option span {
+      font-weight: bold;
+    }
+
+
+    .book-btn {
+      background-color: black;
+      color: white;
+      border: 8px;
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      align-self: center;
+      margin-top: auto;
+    }
+
+    .book-btn:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="card-content">
+      <div class="title">
+        Electronics 
+        <!-- <span class="badge">3N / 4D</span> -->
+      </div>
+      <hr>
+      <div class="details">
+        <ul style="list-style: none; padding: 0;">
+          <li>• Buy this product</li>
+          <li>• Discount</li>
+          <li>• Offers</li>
+        </ul>
+        <ul style="list-style: none; padding: 0;">
+          <li>• Best Time</li>
+          <li>• Limited Prices</li>
+        </ul>
+      </div>
+<hr>
+      <div class="experimental">✔️ Discounts</div>
+
+        <div class="option">
+          <div>
+            <small>Buy at limited Prices</small><br>
+          </div>
+          <span>₹500</span>
+        </div>
+        <button class="book-btn">Book It</button>
+      </div>
+      
+    </div>
+
+    
+  </div>
+</body>
+</html>
